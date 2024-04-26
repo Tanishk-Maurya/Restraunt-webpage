@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 622px;
+    height: 640px;
+    margin:  0px auto;
+    border: 2px solid black;
+    overflow-y: scroll;
+    position: relative;
+}
+.main {
+    display: flex;
+    align-items: center;
+    background: url(images/MAIN.jpeg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1,h3 {
+    color: white;
+    margin-top: 0px;
+    padding-left: 5px;
+    
+  }
+
+#menu {
+   display: block;
+    padding: 25px 30px;
+    background-color: white;
+   
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 5px 12px;
+   
+    
+}
+
+.menu-item:hover{
+    border: 2px solid aqua;
+}
+
+.emoji {
+    font-size: 80px;
+}
+.item-info{
+    width: 230px;
+}
+#add-item-button{
+    border-radius: 50%;
+    font-size: 40px;
+    height: 45px;
+    width: 45px;
+    border: 0.5px solid black;
+}
+
+#order-box-container{
+    display: none;
+}
+.order-box {
+    position: relative;
+    left: 33px;
+    bottom: 1px;
+    height: 250px;
+    text-align: center;
+    background-color: rgb(61, 245, 70);
+    color: black;
+    width: 535px;
+    
+    padding: 10px;
+   
+}
+
+#your-order{
+    color: black;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#order-item-list{
+   
+    list-style-type: none;
+    line-height: 20px;
+    overflow-y: scroll;
+    height: 100px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    color: black;
+}
+
+
+hr {
+    border: 1px solid black;
+    margin: 10px 8px;
+   
+}
+#total-price-container{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.remove-btn{
+    background-color: rgb(213, 245, 87);
+    color: black;
+    padding: 2px 4px;
+    font-size: bold;
+}
+
+#place-order-btn{
+    background: #16DB99;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    left: 75px;
+    bottom: 1px;
+    height: 40px;
+    width: 350px;
+    padding:20px auto ;
+
+}
+.modal-form{
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 33%;
+    
+
+}
+
+form{  
+    border: 2px solid black;
+    font-size: 30px;
+    text-align: center;
+    height: 350px;
+    width: 450px;
+    line-height: 50px;
+    background-color: rgb(68, 235, 230);
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.form-title{
+    margin-bottom: 1500px;
+}
+
+.input-btn{
+    display: block;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 360px;
+    padding: 5px 10px;
+}
+
+.submit-btn{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-size: large;
+    height: 50px;
+    width: 360px;
+    padding: 10px 15px;
+    background: #16DB99;
+}
+
+#finish-msg{
+    display: none;
+    text-align: center;
+    height: 150px;
+    width: 300px;
+    margin: 10px auto;
+    background-color: rgb(245, 173, 79);
+    border: 2px solid black;
+    padding: 10px 15px;
+
+}
+#finsih-msg-text{
+    color: black;
+    font-size: 38px;
+    font-style: italic;
+}
